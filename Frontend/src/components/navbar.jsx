@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import Login from "../components/Login";
+import Login from "./Login";
 import { useAuth } from "../context/AuthProvider";
 import Logout from "./Logout";
 
